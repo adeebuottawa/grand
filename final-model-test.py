@@ -41,8 +41,8 @@ else:
     print("Disease")
 
 #saving the model
-#pickle.dump(LogisticRegression, open('mlmodel.pkl','wb'))
+pickle.dump(LogisticRegression, open('mlmodel.pkl','wb'))
 
-#files.download('mlmodel.pkl')
+files.download('mlmodel.pkl')
 
-#model = pickle.load(open('model.pkl','rb'))
+model = pickle.load(open('model.pkl','rb'))
